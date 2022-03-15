@@ -118,3 +118,11 @@ ul {
 .subscribe {
   font-size: 80%;
 }
+
+th {
+  padding: 0.4em;
+}
+
+td {
+  padding: 0.4em;
+}
