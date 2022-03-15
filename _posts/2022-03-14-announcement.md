@@ -24,13 +24,13 @@ browser thus limiting user's software choices tightly; [0net][0net] is drowning
 in attempts to become user-friendly, while unfortunately failing to address some
 core centralization issues.
 
-there have been a few attempts at building dweb on blockchain, but while
+there have been a few attempts at building dweb on blockchain; but while
 blockchain is a useful technology (and *we will incorporate it as a part* of our
 network, e.g. as a source of timestamps), solely blockchain-based projects are
-doomed to fail to be truly decentralized because as we know by definition
-blockchain is based on consensus that is emerging online — something that cannot
-be achieved when the network is fractured, for instance, by government and
-corporate censorship, or let's say even space (imagine networking on mars).
+doomed to fail to be truly decentralized; as we know by definition blockchain is
+based on consensus that is emerging online — something that cannot be achieved
+when the network is fractured, for instance, by government and corporate
+censorship, or let's say even space (imagine networking on mars).
 
 furthermore, a network of the future needs to finally put the user back in
 control of the data flow: what information is downloaded, stored and uploaded
