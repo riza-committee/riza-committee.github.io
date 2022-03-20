@@ -13,7 +13,7 @@ body {
 }
 
 p {
-  line-height: 120%;
+b  line-height: 120%;
 }
 
 pre {
@@ -70,9 +70,9 @@ a:visited {
 }
 
 body {
-  font-size: 115%;
-  text-align: justify;
-  line-height: 1.5em;
+  /* font-size: 115%; */
+  /* text-align: justify; */
+  /* line-height: 1.5em; */
 }
 
 ul {
@@ -84,10 +84,23 @@ ul {
 }
 
 #instruction {
-  padding: 1em;
-  width:80%;
+  padding: 1em !important;
+  
+  width: 80%;
+  left: 10%;
+  
+  
   position:fixed;
+  overflow-y:scroll;
   z-index:1001;
-  background-color:#fefefe;
-  color: #000;
+  background-color:#ccc;
+  color: #114;
+
+  line-height: 1.5em;
+}
+
+.closebutton {
+  border-radius:2px;
+  background:#fff;
+  border:solid;
 }
