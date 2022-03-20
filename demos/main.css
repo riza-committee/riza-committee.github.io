@@ -1,4 +1,4 @@
-html, body { height: 100%; }
+/* html, body { height: 100%; } */
 
 * {
   margin: 0;
@@ -10,10 +10,6 @@ body {
   color: #020202;
   font-size: medium;
   margin: 0 auto 0;
-}
-
-p {
-b  line-height: 120%;
 }
 
 pre {
@@ -52,7 +48,7 @@ h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p {
   font-size: 16pt;
-  margin: 1em 0;
+  margin: 1em 0 !important;
 }
 
 a {
@@ -85,25 +81,40 @@ ul {
 }
 
 #instruction {
-  padding: 1em !important;
+  padding: 1.5em !important;
+  border-radius: 8px 8px 8px 8px;
+  border: solid 2px #114;
   
   width: 80%;
   left: 10%;
   
   
   position:fixed;
-  overflow-y:scroll;
+  /* overflow-y:scroll; */
   z-index:1001;
   background-color:#ccc;
   color: #114;
 
-  line-height: 1.5em;
+  line-height: 1.5em !important;
+
+  max-height: 100%;
+}
+
+p {
+  line-height: 1.6em !important;
 }
 
 .closebutton {
-  border-radius:2px;
-  background:#fff;
-  border:solid;
+  padding: 1em;
+  float: right;
+  border-radius:4px;
+  background-color: #ccc;
+  color:#114;
+  border:solid 2px;
+}
+
+.closebutton:hover {
+  background-color: #faa;
 }
 
 .hidden {
@@ -112,4 +123,8 @@ ul {
 
 .small {
   font-size: 100%;
+}
+
+ol {
+  padding-left: 2em;
 }
