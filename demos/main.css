@@ -57,7 +57,7 @@ p {
 
 a {
   color: inherit;
-  text-decoration: inherit;
+  /* text-decoration: inherit; */
   font-weight: bold;
 }
 
@@ -80,7 +80,8 @@ ul {
 }
 
 .copypaste {
-  
+  background: inherit;
+
 }
 
 #instruction {
@@ -103,4 +104,12 @@ ul {
   border-radius:2px;
   background:#fff;
   border:solid;
+}
+
+.hidden {
+  display: none;
+}
+
+.small {
+  font-size: 100%;
 }
