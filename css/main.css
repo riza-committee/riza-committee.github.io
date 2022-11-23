@@ -65,10 +65,11 @@ pre {
 .post {
   padding-left: 0.6em;
   padding-right: 0.6em;
-  margin: 0.2em;
+  margin: 0.3em;
   list-style-type: none;
   border-radius: 2px;
-  border: solid 4px #fff4;
+  border: solid 3px #fff4;
+  border-bottom: none;
 }
 
 h1 {
