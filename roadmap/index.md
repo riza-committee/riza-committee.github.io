@@ -9,4 +9,4 @@ layout: default
 - develop storage-agnostic highlevel db read-write api
 - make 0net or riza (depending on progress) available entirely through browser
 - add more details to roadmap
-- *don't* through the can further down the road
+- *don't* throw the can further down the road
