@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>test 0net leak</title>
+ <meta charset="utf-8">
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <script>
+    window.sitesLoaded = []
+    function loaded(x){
+    $('#output').append('<li><a href="http://127.0.0.1:43110/' + x.substring(0, x.indexOf('/')) + '">' + x.substring(0, x.indexOf('/')) + '</a>: <span style="color: green;">Found</span></li>');
+    }
+    function failed(x){
+    $('#output').append('<li><a href="http://127.0.0.1:43110/' + x.substring(0, x.indexOf('/')) + '">' + x.substring(0, x.indexOf('/')) + '</a>: <span style="color: red;">Not present/failed to load</span></li>');
+    }
+ </script>
+ <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
+ <link rel="stylesheet" href="http://127.0.0.1:43110/raw/1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/css/all.css" onload="loaded('1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/css/all.css')" onerror="failed('1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/css/all.css')">
+ <link rel="stylesheet" href="http://127.0.0.1:43110/raw/1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F/css/all.css" onload="loaded('1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F/css/all.css')" onerror="failed('1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F/css/all.css')">
+ <link rel="stylesheet" href="http://127.0.0.1:43110/raw/Talk.ZeroNetwork.bit/css/all.css" onload="loaded('Talk.ZeroNetwork.bit/css/all.css')" onerror="failed('Talk.ZeroNetwork.bit/css/all.css')">
+ <link rel="stylesheet" href="http://127.0.0.1:43110/raw/Blog.ZeroNetwork.bit/css/all.css" onload="loaded('Blog.ZeroNetwork.bit/css/all.css')" onerror="failed('Blog.ZeroNetwork.bit/css/all.css')">
+ <link rel="stylesheet" href="http://127.0.0.1:43110/raw/zeroid.bit/css/all.css" onload="loaded('zeroid.bit/css/all.css')" onerror="failed('zeroid.bit/css/all.css')">
+ <link rel="stylesheet" href="http://127.0.0.1:43110/raw/Mail.ZeroNetwork.bit/css/all.css" onload="loaded('Mail.ZeroNetwork.bit/css/all.css')" onerror="failed('Mail.ZeroNetwork.bit/css/all.css')">
+ <link rel="stylesheet" href="http://127.0.0.1:43110/raw/1uPLoaDwKzP6MCGoVzw48r4pxawRBdmQc/css/all.css" onload="loaded('1uPLoaDwKzP6MCGoVzw48r4pxawRBdmQc/css/all.css')" onerror="failed('1uPLoaDwKzP6MCGoVzw48r4pxawRBdmQc/css/all.css')">
+</head>
+<body>
+  <p>If any of this site is detected, you're using vulnerable version of 0net and unless you're taking extra precautions virtually anyone can know which 0net sites you have on your computer! For more details and original site see <a href="http://127.0.0.1:43110/1ScanCY9fjmjanDt7NwvyNQCL16hqWnVM/">http://127.0.0.1:43110/1ScanCY9fjmjanDt7NwvyNQCL16hqWnVM/</a></p>
+  <ul id='output'></ul>
+  <p>Original code is<br/>Copyright (c) 2017 Kevin Froman Https://ChaosWebs.net/. MIT License.</p>
+</body>
+</html>
